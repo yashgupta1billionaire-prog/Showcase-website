@@ -1,0 +1,16 @@
+@import "tailwindcss";
+
+@theme {
+  --color-ivory: #F5F5F0;
+  --color-navy: #0F172A;
+  --color-teal: #0D9488;
+}
+
+@layer base {
+  body {
+    @apply bg-ivory text-navy font-sans antialiased;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-bold tracking-tight;
+  }
+}
